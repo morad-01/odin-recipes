@@ -1,0 +1,46 @@
+* {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccebb5;
+}
+
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-align: left;
+}
+
+h1 {
+  color: rgb(233, 13, 86);
+  padding-bottom: 20px;
+}
+
+.recipe-card {
+  width: 600px;
+  text-align: center;
+  background-color: #fffafa;
+  margin: 20px auto;
+  padding: 50px;
+  box-shadow: 1px 1px 4px rgba(71, 71, 237, 0.5);
+}
+
+.recipe-card h1 {
+  text-transform: uppercase;
+}
+
+.recipe-card.feature {
+  border: 2px solid darkred;
+}
